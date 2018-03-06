@@ -1,0 +1,61 @@
+// 將您的設定放入此檔案中以覆寫預設值
+{
+
+    // 控制字型家族。
+    "editor.fontFamily": "Monaco, 'Noto Sans CJK TC', monospace",
+    // 控制字型大小。Consolas
+    "editor.fontSize": 14,
+
+    "window.title": "${rootName}${separator}${activeEditorLong}",
+
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Monokai",
+    "workbench.statusBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": true,
+    "editor.mouseWheelZoom": true,
+
+    "todohighlight.keywords": [
+        "CHECK:",
+        "TODO:",
+        "REMOVE:",
+        "TEST:" 
+    ],
+    "todohighlight.isEnable": true,
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.xml",
+        "**/*.css",
+        "**/*.scss"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "classic",
+    "bookmarks.saveBookmarksInProject": true,
+    "files.eol": "\n",
+    "[markdown]": {
+        "editor.quickSuggestions": true
+    },
+    "evermonkey.token": "***************replace token here**********************",
+    "evermonkey.noteStoreUrl": "*************replace URL here**************************",
+    "auto-close-tag.fullMode": true,
+    "update.channel": "none",
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            // "Gold",
+            "Orchid",
+            "LightSkyBlue",
+            "Lime"
+            
+        ],
+        "Red"
+    ],
+    "editor.minimap.enabled": true
+}
