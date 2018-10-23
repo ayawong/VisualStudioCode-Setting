@@ -1,8 +1,13 @@
 // 將您的按鍵組合放入此檔案中以覆寫預設值
 [
     {
-  "command": "editor.action.deleteLines",
-  "key": "ctrl+l",
-  "when": "editorTextFocus && !editorReadonly"
-}
+        "key": "ctrl+l",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    }
 ]
